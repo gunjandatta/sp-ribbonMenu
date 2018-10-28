@@ -1,0 +1,31 @@
+{
+  "name": "sp-ribbonMenu",
+  "version": "1.0.0",
+  "description": "This demo will give a step-by-step tutorial of creating a custom ribbon button menu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sp-ribbonMenu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sp-ribbonMenu/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sp-ribbonMenu#readme",
+  "dependencies": {
+    "gd-sprest-bs": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "ts-loader": "^5.2.2",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
