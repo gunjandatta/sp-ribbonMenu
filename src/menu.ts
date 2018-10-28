@@ -7,8 +7,8 @@ import { Components } from "gd-sprest-bs";
 export const Menu = () => {
     // Create the ribbon button
     let elMenu = Helper.RibbonLink({
-        id: "myInfo",
-        title: "My Info"
+        id: "menu",
+        title: "Menu"
     });
 
     // Render the popover menu
@@ -26,6 +26,7 @@ export const Menu = () => {
             content: () => {
                 // Create the menu
                 let menu = Components.Dropdown({
+                    className: "ribbon-menu",
                     menuOnly: true,
                     items: [
                         {

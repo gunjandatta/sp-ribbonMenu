@@ -19,12 +19,16 @@
   },
   "homepage": "https://github.com/gunjandatta/sp-ribbonMenu#readme",
   "dependencies": {
-    "gd-sprest-bs": "^1.0.4"
+    "gd-sprest-bs": "^1.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "ts-loader": "^5.2.2",
     "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2"

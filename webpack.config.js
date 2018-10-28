@@ -8,7 +8,7 @@ module.exports = (env, argv) => {
     return {
         // Main project files
         entry: [
-            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
+            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.js",
             "./src/index.ts"
         ],
 
@@ -34,6 +34,18 @@ module.exports = (env, argv) => {
         // Compiler Information
         module: {
             rules: [
+                // Handle SASS Files
+                {
+                    test: /\.s?css$/,
+                    use: [
+                        // Create the style nodes from the CommonJS code
+                        { loader: "style-loader" },
+                        // Translate css to CommonJS
+                        { loader: "css-loader" },
+                        // Compile sass to css
+                        { loader: "sass-loader" }
+                    ]
+                },
                 // Handle TypeScript Files
                 {
                     test: /\.tsx?$/,
