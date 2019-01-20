@@ -1,5 +1,5 @@
 dependencies:
-  gd-sprest-bs: 1.5.8
+  gd-sprest-bs: 1.6.0
 devDependencies:
   '@babel/core': 7.2.2
   '@babel/preset-env': 7.2.3
@@ -2088,25 +2088,25 @@ packages:
     dev: false
     resolution:
       integrity: sha512-uMlagCbUBcbHGLGZRRdKX1ejZPfffBgbqTCZ2RSn7whSVr043sGkZQWBRhls2SYWAD/jyS6jBbCaWN35WC4bSg==
-  /gd-sprest-bs/1.5.8:
+  /gd-sprest-bs/1.6.0:
     dependencies:
       gd-bs: 1.2.0
-      gd-sprest: 4.4.6
+      gd-sprest: 4.4.8
       gd-sprest-def: 0.1.0
     dev: false
     resolution:
-      integrity: sha512-C/Sx+jc8QHnyk2GbyxtmVUgaUEMyl1bSC4QaFItAofghyRZqLG9Sm7NdWe6nSjhcaM2pAQIk5Z5N/Imb0EPLig==
+      integrity: sha512-OV/18Wh4cWwBtU2AS1hhmhrHBEnRwESYn8lH6KILITT0EK/fwb5Pb0LU8et+wjUaKhIuDjWMktAQ4SR/IFOi6g==
   /gd-sprest-def/0.1.0:
     dev: false
     resolution:
       integrity: sha512-Z/Bxg3wRC1ILIx/r0LcDfNSA/YJY/My8rYoq2NAfvLIVj/19VUsx3h1bHl/gCO7AdB2VxtD+RXvWFobkzrxCpg==
-  /gd-sprest/4.4.6:
+  /gd-sprest/4.4.8:
     dependencies:
       core-js: 2.6.2
       gd-sprest-def: 0.1.0
     dev: false
     resolution:
-      integrity: sha512-9IRxiSB5X50HQr4b6YB0w84xYwh9TOy8G2af+VqpOLOBVSs8OCNVNmR/TohMWU4fK4y5of6etYbNgScgsNvqzA==
+      integrity: sha512-Q1G3FfEtGasxF3D2gsGUuKzf1JOJuz9O2/Mb3MkbKCHdKEe42TeZSurjdooSaRsthVT4MDPjGiwVYmAtbFaHmQ==
   /get-caller-file/1.0.3:
     dev: true
     resolution:
@@ -4937,7 +4937,7 @@ specifiers:
   '@babel/preset-env': ^7.1.0
   babel-loader: ^8.0.4
   css-loader: ^1.0.0
-  gd-sprest-bs: ^1.5.8
+  gd-sprest-bs: ^1.6.0
   node-sass: ^4.9.4
   sass-loader: ^7.1.0
   style-loader: ^0.23.1
