@@ -13,7 +13,7 @@ export const Configuration = Helper.SPConfig({
                 Name: "Menu",
                 Title: "Menu",
                 Description: "Displays a 'Menu' in the top ribbon row.",
-                ScriptSrc: "~site/siteassets/demoRibbonMenu.js"
+                ScriptSrc: "~site/siteassets/sp-examples/demoRibbonMenu.js"
             }
         ]
     }
