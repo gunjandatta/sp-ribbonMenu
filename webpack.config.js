@@ -8,7 +8,7 @@ module.exports = (env, argv) => {
     return {
         // Main project files
         entry: [
-            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.js",
+            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
             "./src/index.ts"
         ],
 
