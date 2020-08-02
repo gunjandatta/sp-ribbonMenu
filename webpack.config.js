@@ -7,10 +7,7 @@ module.exports = (env, argv) => {
     // Return the configuration
     return {
         // Main project files
-        entry: [
-            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
-            "./src/index.ts"
-        ],
+        entry: "./src/index.ts",
 
         // Output information
         output: {
@@ -20,15 +17,7 @@ module.exports = (env, argv) => {
 
         // Resolve the file names
         resolve: {
-            extensions: [".js", ".ts"]
-        },
-
-        // External Libs
-        // Since we are including the library as part of the entry point, we don't
-        // want webpack to bundle the library twice.
-        externals: {
-            "gd-sprest": "$REST",
-            "gd-sprest-bs": "$REST"
+            extensions: [".css", ".js", ".scss", ".ts"]
         },
 
         // Compiler Information
@@ -51,14 +40,14 @@ module.exports = (env, argv) => {
                     test: /\.tsx?$/,
                     exclude: /node_modules/,
                     use: [
-                        // Step 2 - Compile JavaScript ES6 to JavaScript Current Standards
+                        // Step 2 - Compile JS (ES5) to current standards
                         {
                             loader: "babel-loader",
                             options: {
                                 presets: ["@babel/preset-env"]
                             }
                         },
-                        // Step 1 - Compile TypeScript to JavaScript ES6
+                        // Step 1 - Compile TypeScript to JavaScript (ES5)
                         {
                             loader: "ts-loader"
                         }

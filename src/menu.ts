@@ -1,5 +1,4 @@
-import { Helper } from "gd-sprest";
-import { Components } from "gd-sprest-bs";
+import { Components, Helper } from "gd-sprest-bs";
 
 /**
  * Menu
